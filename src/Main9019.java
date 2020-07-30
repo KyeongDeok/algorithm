@@ -38,9 +38,6 @@ public class Main9019 {
 		q.offer(new Node(a));
 		while(!q.isEmpty()) {
 			Node n = q.poll();
-			if() {
-				
-			}
 			String s;
 			for(int i=0;i<4;i++) {
 				s = exec(n.num,comm[i]);
